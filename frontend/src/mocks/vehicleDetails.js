@@ -1,0 +1,87 @@
+export const mockVehicleDetails = {
+  id: 'v1',
+  brand: 'Toyota',
+  model: 'Corolla',
+  year: 2022,
+  vehicle_type: 'sedan',
+  transmission: 'automatic',
+  fuel_type: 'petrol',
+  seats: 5,
+  color: 'Pearl White',
+  registration_number: 'DHAKA-12345',
+  daily_rate: 3500,
+  deposit_amount: 7000,
+  location: 'Banani, Dhaka',
+  rating: 4.8,
+  review_count: 24,
+  description: 'Well-maintained Toyota Corolla in excellent condition. Recently serviced, perfect for city driving and long trips. Features include power steering, air conditioning, and premium sound system.',
+  
+  images: [
+    { id: 'img1', url: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&h=600&fit=crop', is_primary: true },
+    { id: 'img2', url: 'https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=400&h=300&fit=crop', is_primary: false },
+    { id: 'img3', url: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=300&fit=crop', is_primary: false },
+    { id: 'img4', url: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop', is_primary: false },
+  ],
+  
+  features: [
+    'Air Conditioning',
+    'Power Steering',
+    'Power Windows',
+    'Central Locking',
+    'Airbags',
+    'ABS Brakes',
+    'Bluetooth Audio',
+    'USB Charging',
+    'GPS Navigation',
+    'Reverse Camera',
+  ],
+  
+  safety_features: [
+    'Dual Airbags',
+    'ABS with EBD',
+    'Seat Belt Warning',
+    'Child Lock',
+    'Emergency Brake Assist',
+  ],
+  
+  owner: {
+    id: 'o1',
+    name: 'Rahim Ahmed',
+    avatar: 'https://ui-avatars.com/api/?name=Rahim+Ahmed&background=2563EB&color=fff',
+    rating: 4.9,
+    total_trips: 87,
+    response_rate: '98%',
+    verified: true,
+    member_since: '2024',
+  },
+  
+  reviews: [
+    {
+      id: 'r1',
+      user: 'Karim Hossain',
+      avatar: 'https://ui-avatars.com/api/?name=Karim+Hossain&background=16A34A&color=fff',
+      rating: 5,
+      comment: 'Excellent car! Very clean and well maintained. Owner was very cooperative. Highly recommended!',
+      date: '2026-01-15',
+    },
+    {
+      id: 'r2',
+      user: 'Nusrat Jahan',
+      avatar: 'https://ui-avatars.com/api/?name=Nusrat+Jahan&background=8B5CF6&color=fff',
+      rating: 4.5,
+      comment: 'Good experience overall. Car was in great condition and pickup was smooth.',
+      date: '2026-02-02',
+    },
+    {
+      id: 'r3',
+      user: 'Tanvir Islam',
+      avatar: 'https://ui-avatars.com/api/?name=Tanvir+Islam&background=F59E0B&color=fff',
+      rating: 4.8,
+      comment: 'Smooth ride and very fuel efficient. Will definitely rent again!',
+      date: '2026-02-20',
+    },
+  ],
+  
+  is_verified: true,
+  status: 'available',
+};
